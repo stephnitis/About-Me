@@ -42,7 +42,7 @@ if(answerFour === 'yes' || answerFour === 'y'){
   alert('Unfortunately yes, and it is really not meant to be biked. If you are looking for a better route I recommend the Camino del Cid!');
 } else if(answerFour === 'no' || answerFour === 'n'){
   //console.log('Fail');
-  alert('I wish it were false, but I in fact did attempt this route on bike, which resulted in a lot of bike pushing!');
+  alert('I wish it were false, but I did in fact attempt this route on bike, which resulted in a lot of bike pushing!');
 }
 
 let answerFive = prompt('Am I a Master Diver?').toLowerCase();
