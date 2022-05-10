@@ -2,6 +2,9 @@
 
 console.log('Bienvendidos Mis Amigos!');
 
+let userResponseOne = prompt('Hello! What is your name?');
+alert(`Nice to meet you ${userResponseOne}!`);
+
 let answerOne = prompt('Am I a certified yoga instructor?').toLowerCase();
 
 if(answerOne === 'yes' || answerOne === 'y'){
