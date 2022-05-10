@@ -1,0 +1,24 @@
+body { 
+  background-color: hsl(168, 78%, 87%);
+  margin-left: 10vmax;
+  margin-right: 10vmax;
+  text-align: left;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  color: hsl(13, 94%, 7%);
+    
+}
+
+h1{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 36pt;
+}
+
+div {
+  padding-top: 5%;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1px solid rgb(51, 3, 17);
+}
