@@ -2,8 +2,8 @@
 
 console.log('Bienvendidos Mis Amigos!');
 
-let userResponseOne = prompt('Hello! What is your name?');
-alert(`Nice to meet you ${userResponseOne}!`);
+let userName = prompt('Hello! What is your name?');
+alert(`Nice to meet you ${userName}!`);
 
 let answerOne = prompt('Am I a certified yoga instructor?').toLowerCase();
 
