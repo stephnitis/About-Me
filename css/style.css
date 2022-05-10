@@ -2,7 +2,7 @@ body {
   background-color: hsl(168, 78%, 87%);
   margin-left: 10vmax;
   margin-right: 10vmax;
-  text-align: left;
+  text-align: justify;
   font-family: "Helvetica Neue", "Arial", sans-serif;
   color: hsl(13, 94%, 7%);
     
@@ -14,11 +14,22 @@ h1{
   font-size: 36pt;
 }
 
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  float: left;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
 div {
-  padding-top: 5%;
-  padding-left: 25%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
   padding-right: 25%;
-  margin-left: auto;
+  margin-top: 50px;
+  margin-left: 350px;
   margin-right: auto;
-  border-radius: 1px solid rgb(51, 3, 17);
+  border-left: 10px solid rgb(51, 3, 17);
 }
