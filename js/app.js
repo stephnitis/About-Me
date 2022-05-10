@@ -15,7 +15,7 @@ if(answerOne === 'yes' || answerOne === 'y'){
   alert('Though she is not currently teaching she is still certified!');
 }
 
-let answerTwo = prompt('Have Steph ever thru hiked the CDT?').toLowerCase();
+let answerTwo = prompt('Has Steph ever thru hiked the CDT?').toLowerCase();
 
 if(answerTwo === 'yes' || answerTwo === 'y'){
   //console.log('Fail');
