@@ -5,52 +5,52 @@ console.log('Bienvendidos Mis Amigos!');
 let userName = prompt('Hello! What is your name?');
 alert(`Nice to meet you ${userName}!`);
 
-let answerOne = prompt('Am I a certified yoga instructor?').toLowerCase();
+let answerOne = prompt('Is Steph a certified yoga instructor?').toLowerCase();
 
 if(answerOne === 'yes' || answerOne === 'y'){
   //console.log('Pass');
-  alert('Es verdad! I did a 500 hour certification in Rishikesh, as well as an internship in Medellin. I also keep a yoga mat by my desk to stretch during breaks.');
+  alert('Es verdad! She did a 500 hour certification in Rishikesh, as well as an internship in Medellin. She also keeps a yoga mat by her desk to stretch during breaks.');
 } else if(answerOne === 'no' || answerOne === 'n'){
   //console.log('Fail');
-  alert('I know I am not currently teaching, but I am still certified!');
+  alert('Though she is not currently teaching she is still certified!');
 }
 
-let answerTwo = prompt('Have I ever thru hiked the CDT?').toLowerCase();
+let answerTwo = prompt('Have Steph ever thru hiked the CDT?').toLowerCase();
 
 if(answerTwo === 'yes' || answerTwo === 'y'){
   //console.log('Fail');
-  alert('No, I thru hiked the Appalachian Trail in 2013. I would love to complete the CDT in the future though.');
+  alert('No, she thru hiked the Appalachian Trail in 2013. She would love to complete the CDT in the future though.');
 } else if(answerTwo === 'no' || answerTwo === 'n'){
   //console.log('Pass');
-  alert('You are right! I was a NoBo AT thru hiker, and my trail name is Books!');
+  alert('You are right! She was a NoBo AT thru hiker, and her trail name is Books!');
 }
 
-let answerThree = prompt('Do I have any wine or beer certifications?').toLowerCase();
+let answerThree = prompt('Does she have any wine or beer certifications?').toLowerCase();
 
 if(answerThree === 'yes' || answerThree === 'y'){
   //console.log('Pass');
-  alert('Indeed! I am a Cicerone certified beer server and I have my second level Wine & Spirit Education Trust certification.');
+  alert('Indeed! She is a Cicerone certified beer server and has her second level Wine & Spirit Education Trust certification.');
 } else if(answerThree === 'no' || answerThree === 'n'){
   //console.log('Fail');
-  alert('I am surprised by it as well, but I am certified by Cicerone & WSET. I was pursuing a career in wine before I fell in love with coding.');
+  alert('It is surprising, but she is certified by Cicerone & WSET. Steph was pursuing a career in wine before she fell in love with coding.');
 }
 
-let answerFour = prompt('Have I biked the Camino de Santiago?').toLowerCase();
+let answerFour = prompt('Has she biked the Camino de Santiago?').toLowerCase();
 
 if(answerFour === 'yes' || answerFour === 'y'){
   //console.log('Pass');
-  alert('Unfortunately yes, and it is really not meant to be biked. If you are looking for a better route I recommend the Camino del Cid!');
+  alert('Unfortunately yes, and she will be the first to tell you that it is not meant to be biked. If you are looking for a better route she recommends the Camino del Cid!');
 } else if(answerFour === 'no' || answerFour === 'n'){
   //console.log('Fail');
-  alert('I wish it were false, but I did in fact attempt this route on bike, which resulted in a lot of bike pushing!');
+  alert('She admits it is a much better walking path, but she did in fact attempt this route on bike, which resulted in a lot of bike pushing!');
 }
 
-let answerFive = prompt('Am I a Master Diver?').toLowerCase();
+let answerFive = prompt('Is Steph a Master Diver?').toLowerCase();
 
 if(answerFive === 'yes' || answerFive === 'y'){
   //console.log('Fail');
-  alert('I am not! I would love to be someday, but currently I am only advanced open water with a few additional certifications.');
+  alert('She is not! Though she would love to be someday, she is currently only advanced open water with a few additional certifications.');
 } else if(answerFive === 'no' || answerFive === 'n'){
   //console.log('Pass');
-  alert('You are correct, though I hope to someday be certified and work on a live aboard, I am currently only PADI Advanced Open Water.');
+  alert('You are correct, though she hopes to someday be certified and work on a live aboard, she is currently only PADI Advanced Open Water.');
 }
