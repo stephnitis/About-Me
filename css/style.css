@@ -24,10 +24,10 @@ img {
 }
 
 div {
+  width: 50%;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
-  padding-right: 25%;
   margin-top: 50px;
   margin-left: 350px;
   margin-right: auto;
