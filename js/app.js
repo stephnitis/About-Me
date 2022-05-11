@@ -58,7 +58,7 @@ if (answerFive === 'yes' || answerFive === 'y') {
 function guessingGame() {
   let userAnswer = prompt('Guess');
   let correctAnswer = 15;
-  let attempts = 6;
+  let attempts = 4;
 
   for (let i = 1; i < attempts; i++) {
     while (userAnswer === null) {
@@ -77,7 +77,7 @@ function guessingGame() {
       userAnswer = prompt('too low');
     }
 
-    if (i === 6) {
+    if (i === 4) {
       alert('you are out of guesses');
     }
   }
