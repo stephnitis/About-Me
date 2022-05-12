@@ -61,7 +61,34 @@ if (answerFive === 'yes' || answerFive === 'y') {
   score++;
   alert('You are correct, though she hopes to someday be certified and work on a live aboard, she is currently only PADI Advanced Open Water.');
   //console.log(score);
+  //alert('Your score is ' + score);
 }
+
+let userQuestion = 'Which is my favorite book of these titles: The Overstory, Braiding Sweetgrass, Grapes of Wrath, On the Road, The Goldfinch, All the Light we Cannot See ';
+let answers = ['The Overstory', 'Braiding Sweetgrass', 'Grapes of Wrath', 'On the Road', 'The Goldfinch', 'All the Light we Cannot See'];
+let attempts = 6;
+console.table(answers);
+
+booksAttempts:
+while (attempts) {
+  let response = prompt(userQuestion + ' you have ' + attempts + ' left.');
+  console.log(response);
+  attempts -= 1;
+
+  for (let i = 0; i < attempts; i++) {
+    if (response === answers[2]) {
+      console.log(answers[2]);
+      alert('Yes! It is a timeless classic!');
+      score += 1;
+      break booksAttempts;
+    }
+  }
+  alert('Great book, but not my favorite!');
+}
+if (!attempts) {
+  alert('Sorry, the correct answer is Grapes of Wrath!');
+}
+alert('your score is ' + score);
 
 function guessingGame() {
   let userAnswer = prompt('How old am I?');
