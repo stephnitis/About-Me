@@ -74,7 +74,7 @@ function guessingGame() {
     }
 
     if (userAnswer === correctAnswer) {
-      userAnswer = prompt('Yessir!');
+      userAnswer = prompt('Wow, I guess I really am looking my age these days.');
       break;
     }
 
