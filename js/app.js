@@ -62,7 +62,7 @@ function answerFour() {
 }
 answerFour();
 
-answerFive(){
+function answerFive(){
   if (answerFive === 'yes' || answerFive === 'y') {
     //console.log('Fail');
     score++;
