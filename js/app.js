@@ -63,30 +63,17 @@ if (answerFive === 'yes' || answerFive === 'y') {
   //console.log(score);
   //alert('Your score is ' + score);
 }
-
-let userQuestion = 'Which is my favorite book of these titles: The Overstory, Braiding Sweetgrass, Grapes of Wrath, On the Road, The Goldfinch, All the Light we Cannot See ';
-let answers = ['The Overstory', 'Braiding Sweetgrass', 'Grapes of Wrath', 'On the Road', 'The Goldfinch', 'All the Light we Cannot See'];
-let attempts = 6;
-console.table(answers);
-
-booksAttempts:
-while (attempts) {
-  let response = prompt(userQuestion + ' you have ' + attempts + ' left.');
-  console.log(response);
-  attempts -= 1;
-
-  for (let i = 0; i < attempts; i++) {
-    if (response === answers[2]) {
-      console.log(answers[2]);
-      alert('Yes! It is a timeless classic!');
-      score += 1;
-      break booksAttempts;
+let favBooks = ['The Overstory', 'Braiding Sweetgrass', 'Grapes of Wrath', 'Harry Potter', 'The Goldfinch', 'All the Light we Cannot See'];
+for (let i = 0; i < 6; i++) {
+  let favBookGuess = prompt('Guess one of my favorite books!').toLowerCase();
+  for (let j = 0; j < favBooks.length; j++) {
+    if (favBookGuess === favBooks[j]) {
+      alert('Yes! If you have not read it, you must!');
+      score++;
+      i = 6;
+      break;
     }
   }
-  alert('Great book, but not my favorite!');
-}
-if (!attempts) {
-  alert('Sorry, the correct answer is Grapes of Wrath!');
 }
 alert('your score is ' + score);
 
