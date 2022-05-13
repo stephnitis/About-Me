@@ -90,8 +90,6 @@ function favBooks() {
 }
 favBooks();
 
-alert('your score is ' + score);
-
 function guessingGame() {
   let userAnswer = prompt('How old am I?');
   let correctAnswer = 33;
@@ -104,6 +102,7 @@ function guessingGame() {
 
     if (userAnswer === correctAnswer) {
       userAnswer = prompt('Wow, I guess I really am looking my age these days.');
+      score++;
       break;
     }
 
@@ -120,3 +119,5 @@ function guessingGame() {
   }
 }
 guessingGame();
+
+alert('your score is ' + score);
