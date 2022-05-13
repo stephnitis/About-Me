@@ -6,8 +6,8 @@ let userName = prompt('Hello! What is your name?');
 alert(`Nice to meet you ${userName}!`);
 
 let score = 0;
-let answerOne = prompt('Is Steph a certified yoga instructor?').toLowerCase();
-
+function answerOne(){
+  let answerOne = prompt('Is Steph a certified yoga instructor?').toLowerCase();
 if (answerOne === 'yes' || answerOne === 'y') {
   //console.log('Pass');
   score++;
@@ -16,6 +16,8 @@ if (answerOne === 'yes' || answerOne === 'y') {
   //console.log('Fail');
   alert('Though she is not currently teaching she is still certified!');
 }
+}
+answerOne();
 
 let answerTwo = prompt('Has Steph ever thru hiked the CDT?').toLowerCase();
 
