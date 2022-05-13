@@ -75,7 +75,7 @@ function answerFive() {
 answerFive();
 
 function favBooks() {
-  let favBooks = ['The Overstory', 'Braiding Sweetgrass', 'Grapes of Wrath', 'Harry Potter', 'The Goldfinch', 'All the Light we Cannot See'];
+  let favBooks = ['the overstory', 'braiding sweetgrass', 'grapes of wrath', 'harry potter', 'the goldfinch', 'all the light we cannot see'];
   for (let i = 0; i < 6; i++) {
     let favBookGuess = prompt('Guess one of my favorite books!').toLowerCase();
     for (let j = 0; j < favBooks.length; j++) {
